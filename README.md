@@ -1,4 +1,4 @@
-# Twiiter-Sentiment-Analysis-using-ML
+# Twitter-Sentiment-Analysis-using-ML
 #Shravani Shinde
 The goal of this project is to perform sentiment analysis on a dataset imported from Kaggle, which contains 1.6 million tweets labelled as positive or negative. The aim is to provide insights into public sentiments expresseed on Twitter.
 
