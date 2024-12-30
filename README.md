@@ -9,16 +9,16 @@ Overview:
 - Evaluating the model performance and saving it for future use
 
 Dataset: 
-Sentiment140 dataset containg 1.6 million tweets, each lablled as-
+Sentiment140 dataset containing 1.6 million tweets, each lablled as-
 0= Positive tweet
 1= Negative tweet (converted from original 4)
 
 Workflow:
-1. Preprocessing: Removing non alphabetic characters, stopwords, lowercase texts. Applying stemming to reduce words to their root words.
-2. Data splitting: Splitting the data into trainig(80%) and testing(20%) sets.
-3. Feature Extraction: Converting the textual data into numerical form using TF-IDF Vectorization
-4. Model Training: Training the logistic Regression model on the preprocessed data.
+1. Preprocessing: Removing non alphabetic characters, stopwords, lowercase texts. Applying stemming to reduce words to their root word.
+2. Data splitting: Splitting the data into Trainig(80%) and Testing(20%) sets.
+3. Feature Extraction: Converting the textual data into numerical form using TF-IDF Vectorization.
+4. Model Training: Training the Logistic Regression model on the preprocessed data.
 5. Evaluation: Training accuracy= 92.68% , testing accuracy= 63.10%.
-6. Model Saving:Saving the model using pickel for future deployment and use.
+6. Model Saving: Saving the model using pickel for future deployment and use.
 
 Python Libraries Used: nltk, scikit-learn, pandas, numpy, pickle.
